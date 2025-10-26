@@ -41,6 +41,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 .square {
     width: 20px;
@@ -58,4 +59,6 @@ body {
 
 .btn {
     flex-grow: 1;
+    cursor: pointer;
+    padding: 0.3rem 1rem;
 }
