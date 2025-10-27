@@ -38,7 +38,7 @@ body {
 
 .wrapper {
     display: flex;
-    align-items: center;
+    justify-content: end;
     gap: 0.5rem;
     flex-wrap: wrap;
     margin-bottom: 1rem;
@@ -61,4 +61,11 @@ body {
     flex-grow: 1;
     cursor: pointer;
     padding: 0.3rem 1rem;
+}
+
+
+.btn-reset {
+    padding: 4.8px 1rem;
+    cursor: pointer;
+    flex-grow: 1;
 }
